@@ -1,0 +1,26 @@
+{
+    "name": "good-taste-theme",
+    "displayName": "Good Taste Theme",
+    "description": "A light theme for those with a good taste",
+    "version": "1.0.0",
+    "publisher": "faelv",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/faelv/good-taste-theme.git"
+    },
+    "engines": {
+        "vscode": "^1.18.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Good Taste",
+                "uiTheme": "vs",
+                "path": "./themes/good-taste-color-theme.json"
+            }
+        ]
+    }
+}
