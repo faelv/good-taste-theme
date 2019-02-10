@@ -2,8 +2,9 @@
     "name": "good-taste-theme",
     "displayName": "Good Taste Theme",
     "description": "A light theme for those with a good taste",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "faelv",
+    "icon": "icon.png",
     "repository": {
         "type": "git",
         "url": "https://github.com/faelv/good-taste-theme.git"
