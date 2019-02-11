@@ -390,6 +390,74 @@
 				"fontStyle": "italic",
 				"foreground": "#666666"
 			}
+		},
+		//Go
+		{
+			"scope": "entity.name.package.go",
+			"settings": {
+				"foreground": "#CE7B00",
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"scope": "keyword.operator.channel.go",
+			"settings": {
+				"foreground": "#d10000"
+			}
+		},
+		{
+			"scope": [
+				"storage.type.boolean.go",
+				"storage.type.byte.go",
+				"storage.type.error.go",
+				"storage.type.numeric.go",
+				"storage.type.rune.go",
+				"storage.type.string.go",
+				"storage.type.uintptr.go"
+			],
+			"settings": {
+				"foreground": "#4a8300"
+			}
+		},
+		{
+			"scope": "constant.language.go",
+			"settings": {
+				"foreground": "#007fbf",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "keyword.control.go",
+			"settings": {
+				"foreground": "#007fbf"
+			}
+		},
+		{
+			"scope": "support.function.go",
+			"settings": {
+				"foreground": "#0f0f0e"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.function.go",
+				"entity.name.type.go"
+			],
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "constant.other.placeholder.go",
+			"settings": {
+				"foreground": "#7d5a27"
+			}
+		},
+		{
+			"scope": "support.function.builtin.go",
+			"settings": {
+				"foreground": "#8000ca"
+			}
 		}
 	]
 }
