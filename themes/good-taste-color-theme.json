@@ -458,6 +458,116 @@
 			"settings": {
 				"foreground": "#8000ca"
 			}
+		},
+		{
+			"scope": [
+				"string.regexp.js punctuation.definition.string.begin.js",
+				"string.regexp.js punctuation.definition.string.end.js",
+				"string.regexp.js keyword.other.js"
+			],
+			"settings": {
+				"foreground": "#d10000",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"string.regexp.js keyword.operator.quantifier.regexp",
+				"string.regexp.js keyword.operator.or.regexp",
+				"string.regexp.js keyword.operator.negation.regexp",
+			],
+			"settings": {
+				"foreground": "#8000ca",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"string.regexp.js",
+				"string.regexp.js constant.other.character-class.set.regexp",
+				"string.regexp.js constant.other.character-class.range.regexp",
+			],
+			"settings": {
+				"foreground": "#CE7B00",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"string.regexp.js constant.other.character-class.range.regexp",
+				"string.regexp.js constant.character.numeric.regexp"
+			],
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"string.regexp.js constant.other.character-class.regexp",
+				"string.regexp.js punctuation.definition.group.assertion.regexp"
+			],
+			"settings": {
+				"foreground": "#ce47cc",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"string.regexp.js punctuation.definition.character-class.regexp",
+				"string.regexp.js punctuation.definition.group.regexp"
+			],
+			"settings": {
+				"foreground": "#5a5a5a",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"punctuation.section.embedded.begin.js.jsx",
+				"punctuation.section.embedded.end.js.jsx"
+			],
+			"settings": {
+				"foreground": "#5a5a5a",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": "entity.other.attribute-name.js.jsx",
+			"settings": {
+				"foreground": "#4a8300",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": "meta.template.expression.js",
+			"settings": {
+				"foreground": "#ceaf00",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.tag.begin.js.jsx",
+				"punctuation.definition.tag.end.js.jsx"
+			],
+			"settings": {
+				"foreground": "#007fbf",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": "entity.name.tag.js.jsx",
+			"settings": {
+				"foreground": "#007fbf",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": "support.class.component.js.jsx",
+			"settings": {
+				"foreground": "#007fbf",
+				"fontStyle": "bold italic"
+			}
 		}
 	]
 }
