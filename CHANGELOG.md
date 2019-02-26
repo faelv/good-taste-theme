@@ -1,5 +1,8 @@
 # Change Log
 
+## [1.2.1]
+- Small fixes for Node and Javascript
+
 ## [1.2.0]
 - Better JSX/React support
 - Better JS Regex support

@@ -568,6 +568,20 @@
 				"foreground": "#007fbf",
 				"fontStyle": "bold italic"
 			}
+		},
+		{
+			"scope": "support.variable.object.node.js",
+			"settings": {
+				"foreground": "#ce47cc",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": "keyword.operator.expression.in.js",
+			"settings": {
+				"foreground": "#0000e6",
+				"fontStyle": ""
+			}
 		}
 	]
 }
