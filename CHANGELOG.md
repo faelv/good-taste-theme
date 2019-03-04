@@ -1,5 +1,13 @@
 # Change Log
 
+## [1.3.0]
+- Better CSS support
+- Small fixes for Node and Javascript
+- Small fix for JSX
+- Dockerfile support
+- Updated README
+- Started refactoring theme JSON
+
 ## [1.2.1]
 - Small fixes for Node and Javascript
 

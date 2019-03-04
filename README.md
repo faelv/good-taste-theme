@@ -19,6 +19,9 @@ Supported languages:
 
 ![Window Sample](./images/sample-window.png)
 
+To install type `ext install faelv.good-taste-theme` in VS Code's Quick Open (Ctrl+P) and hit Enter, or search for Good
+Taste Theme.
+
 Font is [**Fira Mono**](https://mozilla.github.io/Fira/)
 
 ## PHP
@@ -27,10 +30,22 @@ Font is [**Fira Mono**](https://mozilla.github.io/Fira/)
 
 ## JS
 
-![Window JS](./images/sample-js.png)
+![JS Sample](./images/sample-js.png)
+
+## JSX / React
+
+![JSX Sample](./images/sample-jsx.png)
+
+## HTML
+
+![HTML Sample](./images/sample-html.png)
+
+## CSS
+
+![CSS Sample](./images/sample-css.png)
 
 ## JSON
 
-![Window JSON](./images/sample-json.png)
+![JSON Sample](./images/sample-json.png)
 
 **I hope you like it**
