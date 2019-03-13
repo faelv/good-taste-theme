@@ -14,7 +14,6 @@ Supported languages:
 - TypeScript
 - HTML
 - CSS
-- Java
 - Go
 
 ![Window Sample](./images/sample-window.png)

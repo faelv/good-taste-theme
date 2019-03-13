@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.3.1]
+- Fixes for Javascript
+- Fixes for HTML
+- Dropped support for Java
+
 ## [1.3.0]
 - Better CSS support
 - Small fixes for Node and Javascript

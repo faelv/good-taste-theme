@@ -200,6 +200,45 @@
 				"foreground": "#800080"
 			}
 		},
+		//HTML
+		{
+			"scope": [
+				"meta.tag.metadata.doctype.html entity.name.tag.html",
+				"meta.tag.metadata.doctype.html punctuation.definition.tag.begin.html",
+				"meta.tag.metadata.doctype.html punctuation.definition.tag.end.html"
+			],
+			"settings": {
+				"foreground": "#628FB5",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "meta.tag.metadata.doctype.html entity.other.attribute-name.html",
+			"settings": {
+				"foreground": "#4a8300",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "meta.tag.metadata.doctype.html string",
+			"settings": {
+				"foreground": "#ceaf00",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"meta.tag.structure.html.start.html entity.name.tag",
+				"meta.tag.structure.head.start.html entity.name.tag",
+				"meta.tag.structure.body.start.html entity.name.tag",
+				"meta.tag.structure.html.end.html entity.name.tag",
+				"meta.tag.structure.head.end.html entity.name.tag",
+				"meta.tag.structure.body.end.html entity.name.tag"
+			],
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
 		//SQL
 		{
 			"scope": "string.quoted.single.sql",
@@ -533,6 +572,50 @@
 		},
 		{
 			"scope": [
+				"variable.other.property.js",
+				"variable.other.object.property.js",
+			],
+			"settings": {
+				"foreground": "#000000"
+			}
+		},
+		{
+			"scope": "source.js constant.language",
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "source.js support.constant",
+			"settings": {
+				"foreground": "#8000ca"
+			}
+		},
+		{
+			"scope": "storage.type.function.arrow.js",
+			"settings": {
+				"foreground": "#d10000"
+			}
+		},
+		{
+			"scope": [
+				"meta.objectliteral.js punctuation.definition.block.js",
+				"meta.object-binding-pattern-variable.js punctuation",
+				"meta.parameter.object-binding-pattern.js punctuation"
+			],
+			"settings": {
+				"foreground": "#5a5a5a"
+			}
+		},
+		{
+			"scope": "meta.objectliteral.js meta.object.member.js variable.other.readwrite.js",
+			"settings": {
+				"foreground": "#009900"
+			}
+		},
+		//JSX
+		{
+			"scope": [
 				"punctuation.section.embedded.begin.js.jsx",
 				"punctuation.section.embedded.end.js.jsx"
 			],
@@ -590,13 +673,6 @@
 			"scope": "meta.block.js.jsx meta.var.expr.js.jsx storage.type.js.jsx",
 			"settings": {
 				"foreground": "#0000e6",
-				"fontStyle": ""
-			}
-		},
-		{
-			"scope": "meta.embedded.expression.js.jsx variable.other.readwrite.js.jsx",
-			"settings": {
-				"foreground": "#333",
 				"fontStyle": ""
 			}
 		},
