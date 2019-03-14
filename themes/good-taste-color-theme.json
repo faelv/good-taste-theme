@@ -607,12 +607,6 @@
 				"foreground": "#5a5a5a"
 			}
 		},
-		{
-			"scope": "meta.objectliteral.js meta.object.member.js variable.other.readwrite.js",
-			"settings": {
-				"foreground": "#009900"
-			}
-		},
 		//JSX
 		{
 			"scope": [

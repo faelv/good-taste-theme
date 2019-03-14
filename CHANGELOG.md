@@ -1,5 +1,8 @@
 # Change Log
 
+## [1.3.2]
+- Small fix for Javascript (wrong color for variables inside object literals)
+
 ## [1.3.1]
 - Fixes for Javascript
 - Fixes for HTML
