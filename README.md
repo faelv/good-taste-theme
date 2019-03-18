@@ -13,7 +13,9 @@ Supported languages:
 - JavaScript React / JSX
 - TypeScript
 - HTML
+- Pug
 - CSS
+- Sass / SCSS
 - Go
 
 ![Window Sample](./images/sample-window.png)

@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.3.3]
+- Fixes for JSX
+- Better support for Sass/SCSS
+- Better support for Pug
+
 ## [1.3.2]
 - Small fix for Javascript (wrong color for variables inside object literals)
 
