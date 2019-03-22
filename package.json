@@ -2,7 +2,7 @@
     "name": "good-taste-theme",
     "displayName": "Good Taste Theme",
     "description": "A light theme for those with a good taste",
-    "version": "1.3.3",
+    "version": "2.0.0",
     "publisher": "faelv",
     "icon": "icon.png",
     "repository": {
@@ -10,17 +10,52 @@
         "url": "https://github.com/faelv/good-taste-theme.git"
     },
     "engines": {
-        "vscode": "^1.18.0"
+        "vscode": "^1.9.0"
     },
     "categories": [
         "Themes"
+    ],
+    "keywords": [
+        "light", "theme", "php", "javascript", "go", "html", "jsx"
     ],
     "contributes": {
         "themes": [
             {
                 "label": "Good Taste",
                 "uiTheme": "vs",
-                "path": "./themes/good-taste-color-theme.json"
+                "path": "./themes/GoodTaste.color-theme.json"
+            }
+        ],
+        "grammars": [
+            {
+                "scopeName": "comment.markdown.injection",
+                "path": "./syntaxes/MarkdownCode.tmLanguage.json",
+                "injectTo": [
+                    "source.ts",
+                    "source.tsx",
+                    "source.js",
+                    "source.jsx",
+                    "source.php",
+                    "text.html.php"
+                ],
+                "embeddedLanguages": {
+                    "comment.markdown.code.block": "text.html.markdown"
+                },
+                "tokenTypes": {
+                    "comment.markdown.code.block": "comment"
+                }
+            },
+            {
+                "scopeName": "sql.injection",
+                "path": "./syntaxes/SQLNamedParams.tmLanguage.json",
+                "injectTo": [
+                    "source.sql",
+                    "source.php",
+                    "text.html.php"
+                ],
+                "tokenTypes": {
+                    "sql.named-parameter": "other"
+                }
             }
         ]
     }

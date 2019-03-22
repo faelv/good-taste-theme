@@ -1,5 +1,12 @@
 # Change Log
 
+## [2.0.0]
+- Completely refactored
+- VSCode's minimum required version is now 1.9
+- Better TypeScript support
+- Better SQL support
+- Updated README
+
 ## [1.3.3]
 - Fixes for JSX
 - Better support for Sass/SCSS

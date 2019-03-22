@@ -1,0 +1,11 @@
+{
+	"fileTypes": [],
+	"injectionSelector": "R:markup.fenced_code.block.markdown",
+	"patterns": [
+		{
+			"match": "[\\s\\S]+",
+			"name": "comment.markdown.code.block"
+		}
+	],
+	"scopeName": "comment.markdown.injection"
+}

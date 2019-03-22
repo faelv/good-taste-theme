@@ -1,0 +1,544 @@
+{
+	"name": "Good Taste",
+	"type": "light",
+	"colors": {
+		"foreground": "#404040",
+		"editor.findMatchBackground": "#b0c5e3cc",
+		"editor.findMatchHighlightBackground": "#ffb442cc",
+		"editor.lineHighlightBackground": "#e9eff8",
+		"editor.background": "#fffefd",
+		"editor.foreground": "#0f0f0e",
+		"editor.selectionHighlightBackground": "#95ff6b6b",
+		"editor.selectionBackground": "#878b9180",
+		"editor.wordHighlightBackground": "#eceba3cc",
+		"editorCursor.foreground": "#000000",
+		"editorWhitespace.foreground": "#D3D3D3",
+		"editorIndentGuide.background": "#D3D3D3",
+		"editorIndentGuide.activeBackground": "#c2c2bf",
+		"editorLineNumber.activeForeground": "#80807e",
+		"editorLineNumber.foreground": "#c2c2bf",
+		"editorSuggestWidget.selectedBackground": "#95ff6b6b",
+		"statusBar.background": "#2c2c2c",
+		"statusBar.noFolderBackground": "#2c2c2c",
+		"statusBar.debuggingBackground": "#c83232",
+		"tab.border": "#e2e2e2",
+		"tab.inactiveForeground": "#909090",
+		"tab.hoverBackground": "#d2d2d2",
+		"tab.unfocusedHoverBackground": "#d2d2d2",
+		"tab.unfocusedActiveForeground": "#666666",
+		"tab.unfocusedInactiveForeground": "#b0b0b0",
+		"list.hoverBackground": "#d2d2d2",
+		"peekViewResult.matchHighlightBackground": "#ffb442cc"
+	},
+	"tokenColors": [
+		{
+			"name": "TOKEN INFO",
+			"scope": [
+				"token.info-token"
+			],
+			"settings": {
+				"foreground":"#316bcd",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "TOKEN DEBUG",
+			"scope": [
+				"token.debug-token"
+			],
+			"settings": {
+				"foreground": "#800080",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "TOKEN ERROR",
+			"scope": [
+				"token.error-token"
+			],
+			"settings": {
+				"foreground": "#cd3131",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "TOKEN WARNING",
+			"scope": [
+				"token.warn-token"
+			],
+			"settings": {
+				"foreground": "#cd9731",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "NoneNormal",
+			"scope": [
+				"entity.name.function.php",
+				"entity.name.type.class.php",
+				"entity.name.type.interface.php",
+				"entity.name.type.trait.php"
+			],
+			"settings": {
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "NoneBold",
+			"scope": [
+				"variable.other.php",
+				"variable.language.php",
+				"variable.other.global.php",
+				"variable.other.global.safer.php",
+				"entity.name.function.go",
+				"entity.name.type.go",
+				"variable.scss",
+				"sql.named-parameter"
+			],
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "NoneItalic",
+			"scope": [
+				"constant.language.php",
+				"string.regexp.js constant.character.numeric.regexp",
+				"source.js constant.language",
+				"source.css string"
+			],
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "BlackNormal",
+			"scope": [
+				"entity.other.inherited-class",
+				"punctation",
+				"punctuation.terminator.statement.js",
+				"punctuation.separator.key-value.js",
+				"punctuation.separator.comma.js",
+				"punctuation.definition.block.js",
+				"punctuation.accessor.js",
+				"punctuation.definition.parameters.begin.js",
+				"punctuation.definition.parameters.end.js",
+				"keyword.operator",
+				"variable",
+				"meta.function-call.ts entity.name.function.ts",
+				"meta.function-call.js entity.name.function.js",
+				"support.variable.property.js",
+				"storage.modifier.import",
+				"storage.modifier.package",
+				"storage.type.annotation",
+				"storage.type.generic",
+				"storage.type.object.array",
+				"storage.type.java",
+				"support.class.js",
+				"keyword.other",
+				"variable.other.property.php",
+				"constant.other.php",
+				"variable.other.property.js",
+				"variable.other.object.property.js",
+				"variable.other.property.ts",
+				"variable.object.property.ts",
+				"meta.objectliteral.js meta.block punctuation.definition.block.js",
+				"support.function.go",
+				"constant.other.color.rgb-value.hex.css"
+			],
+			"settings": {
+				"foreground": "#000000",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "BlackBold",
+			"scope": [
+				"entity.name.type.class",
+				"entity.name.type.interface",
+				"entity.name.function",
+				"meta.definition.method.ts entity.name.function.ts",
+				"keyword.control.at-rule.keyframes.css",
+				"meta.method.declaration.js storage.type",
+				"meta.method.declaration.ts storage.type",
+				"keyword.control.at-rule.media.css",
+				"variable.language.this.php",
+				"storage.modifier.reference.php"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#000000"
+			}
+		},
+		{
+			"name": "BlackItalic",
+			"scope": [
+				"keyword.other.important.css"
+			],
+			"settings": {
+				"foreground": "#000000",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "BlueNormal",
+			"scope": [
+				"keyword",
+				"storage",
+				"keyword.control",
+				"entity.name.tag",
+				"storage.type.js",
+				"constant.language",
+				"keyword.operator.new",
+				"keyword.other.import",
+				"keyword.other.package",
+				"variable.language.java",
+				"variable.language.this",
+				"support.type.primitive.ts",
+				"variable.language.super.ts",
+				"keyword.other.import.static",
+				"keyword.operator.expression.delete.js",
+				"keyword.operator.expression.typeof.js",
+				"keyword.operator.expression.instanceof.js",
+				"punctuation.definition.tagstorage.type.function.js",
+				"entity.name.tag",
+				"punctuation.definition.tag.xml",
+				"punctuation.definition.tag.html",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html",
+				"support.type.property-name.css",
+				"keyword.other.new.php",
+				"keyword.other.use.php",
+				"keyword.other.namespace.php",
+				"keyword.operator.type.php",
+				"keyword.other.use-as.php",
+				"punctuation.definition.storage-type.begin.bracket.round.php",
+				"punctuation.definition.storage-type.end.bracket.round.php",
+				"meta.function.parameters.php punctuation.separator.inheritance.php",
+				"meta.block.js meta.var.expr.js storage.type.js",
+				"keyword.operator.expression.in.js",
+				"support.type.builtin.ts",
+				"keyword.other.special-method.dockerfile"
+			],
+			"settings": {
+				"foreground": "#0000E6",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "LightBlueNormal",
+			"scope": [
+				"keyword.other.sql",
+				"source.sql storage",
+				"source.sql keyword.other",
+				"keyword.control.go",
+				"punctuation.definition.tag.begin.js",
+				"punctuation.definition.tag.end.js",
+				"entity.name.tag.js",
+				"support.type.vendored.property-name.css",
+				"meta.tag.sgml.doctype.xml",
+				"keyword.other.doctype.xml",
+				"meta.tag.sgml.doctype.html",
+				"variable.language.documentroot.xml"
+			],
+			"settings": {
+				"foreground": "#007fbf",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "LightBlueBold Italic",
+			"scope": [
+				"support.class.component.js"
+			],
+			"settings": {
+				"foreground": "#007fbf",
+				"fontStyle": "bold italic"
+			}
+		},
+		{
+			"name": "LightBlueItalic",
+			"scope": [
+				"constant.language.go",
+				"meta.tag.metadata.doctype.html entity.name.tag.html",
+				"meta.tag.metadata.doctype.html punctuation.definition.tag.end.html",
+				"meta.tag.metadata.doctype.html punctuation.definition.tag.begin.html"
+			],
+			"settings": {
+				"foreground": "#007fbf",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "GreenNormal",
+			"scope": [
+				"meta.object-literal.key",
+				"variable.other.property",
+				"variable.object.property",
+				"entity.other.attribute-name",
+				"variable.other.object.property",
+				"support.type.property-name.json",
+				"support.variable.property.dom.js",
+				"variable.other.constant.property.js",
+				"variable.other.constant.object.property.js",
+				"meta.interface.ts variable.object.property.ts",
+				"string.quoted.single.sql"
+			],
+			"settings": {
+				"foreground": "#009900",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "GreenItalic",
+			"scope": [
+				"constant.other"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#009900"
+			}
+		},
+		{
+			"name": "DarkGreenNormal",
+			"scope": [
+				"constant.other.class.php",
+				"support.constant.std.php",
+				"support.constant.ext.php",
+				"support.constant.core.php",
+				"support.constant.parser-token.php",
+				"storage.type.boolean.go",
+				"storage.type.byte.go",
+				"storage.type.error.go",
+				"storage.type.numeric.go",
+				"storage.type.rune.go",
+				"storage.type.string.go",
+				"storage.type.uintptr.go",
+				"entity.other.attribute-name.js"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#4a8300"
+			}
+		},
+		{
+			"name": "DarkGreenItalic",
+			"scope": [
+				"meta.tag.metadata.doctype.html entity.other.attribute-name.html"
+			],
+			"settings": {
+				"foreground": "#4a8300",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "DarkGrayItalic",
+			"scope": [
+				"constant.numeric.css keyword.other",
+				"keyword.other.phpdoc.php",
+				"meta.other.type.phpdoc.php",
+				"storage.type.class.jsdoc",
+			],
+			"settings": {
+				"foreground": "#5a5a5a",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "DarkGrayNormal",
+			"scope": [
+				"string.regexp.js punctuation.definition.group.regexp",
+				"string.regexp.js punctuation.definition.character-class.regexp",
+				"meta.objectliteral.js punctuation.definition.block.js",
+				"meta.object-binding-pattern-variable.js punctuation",
+				"meta.parameter.object-binding-pattern.js punctuation",
+				"punctuation.section.embedded.begin.js",
+				"punctuation.section.embedded.end.js",
+				"meta.other.type.phpdoc.php keyword.other.type.php"
+			],
+			"settings": {
+				"foreground": "#5a5a5a",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "BrownNormal",
+			"scope": [
+				"string.quoted.other.backtick.sql",
+				"constant.other.placeholder.go",
+				"meta.template.expression.js"
+			],
+			"settings": {
+				"foreground": "#7d5a27",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "PurpleNormal",
+			"scope": [
+				"support.function",
+				"keyword.operator.error-control.php",
+				"support.function.builtin.go",
+				"string.regexp.js keyword.operator.quantifier.regexp",
+				"string.regexp.js keyword.operator.or.regexp",
+				"string.regexp.js keyword.operator.negation.regexp",
+				"source.js support.constant",
+				"variable.language.super.js",
+				"keyword.operator.expression.import.js",
+				"support.variable.object.node.js",
+				"support.type.object.module.js",
+				"source.ts keyword.operator.expression"
+			],
+			"settings": {
+				"foreground": "#8000ca",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "GrayBold",
+			"scope": [
+
+				"keyword.other.documentation"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#969696"
+			}
+		},
+		{
+			"name": "GrayNormal",
+			"scope": [
+				"comment",
+				"variable.other.jsdoc",
+				"comment.line.double-slash.js",
+				"comment.block.documentation.js",
+				"entity.name.type.instance.jsdoc",
+				"variable.other.link.underline.jsdoc",
+				"text.pug string.comment",
+				"source.sql comments"
+			],
+			"settings": {
+				"foreground": "#969696",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "OrangeNormal",
+			"scope": [
+				"string",
+				"string.quoted.single.js",
+				"string.quoted.double.js",
+				"punctuation.definition.string.end.js",
+				"punctuation.definition.string.begin.js",
+				"keyword.operator.nowdoc.php",
+				"keyword.operator.heredoc.php",
+				"string.quoted.double.php variable.other.php",
+				"string.regexp.js",
+				"string.regexp.js constant.other.character-class.set.regexp",
+				"entity.other.attribute-name.pseudo-class.css",
+				"entity.other.attribute-name.pseudo-element.css",
+				"entity.name.package.go",
+				"meta.embedded.sql source.sql keyword.operator.star"
+			],
+			"settings": {
+				"foreground": "#ce7b00",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "OrangeItalic",
+			"scope": [
+				"string.regexp.js constant.other.character-class.range.regexp",
+				"meta.embedded.sql sql.named-parameter"
+			],
+			"settings": {
+				"foreground": "#ce7b00",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "OrangeBold",
+			"scope": [
+				"string.unquoted.heredoc.php variable.other.php"
+			],
+			"settings": {
+				"foreground": "#ce7b00",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "LightPurpleNormal",
+			"scope": [
+				"source.sql support.function",
+				"string.regexp.js constant.other.character-class.regexp",
+				"string.regexp.js punctuation.definition.group.assertion.regexp",
+				"string.regexp.js keyword.control.anchor.regexp"
+			],
+			"settings": {
+				"foreground": "#ce47cc",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "LightOrangeNormal",
+			"scope": [
+				"punctuation.definition.typeparameters.begin.ts",
+				"punctuation.definition.typeparameters.end.ts",
+				"entity.other.attribute-name.css",
+				"variable.parameter.keyframe-list.css",
+				"meta.at-rule.media.header.css support.constant.media.css",
+				"meta.at-rule.media.header.css support.type.property-name.media.css",
+				"text.pug variable.control.import.include.pug",
+				"meta.tag.metadata.doctype.html string"
+			],
+			"settings": {
+				"foreground": "#ceaf00",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "DarkRedNormal",
+			"scope": [
+				"keyword.operator.class.php",
+				"keyword.operator.arithmetic.php",
+				"keyword.operator.channel.go",
+				"string.regexp.js punctuation.definition.string.begin.js",
+				"string.regexp.js punctuation.definition.string.end.js",
+				"string.regexp.js keyword.other.js",
+				"storage.type.function.arrow",
+				"source.ts keyword.operator.optional",
+				"source.ts keyword.operator.type.ts",
+				"entity.name.tag.css",
+				"entity.name.tag.wildcard.css",
+				"text.pug storage"
+			],
+			"settings": {
+				"foreground": "#d10000",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "DarkRedItalic",
+			"scope": [
+				"punctuation.section.embedded.end.php",
+				"punctuation.section.embedded.begin.php"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#d10000"
+			}
+		},
+		{
+			"name": "LightRedNormal",
+			"scope": [
+				"keyword.operator.math.sql",
+				"source.sql constant.numeric",
+				"constant.numeric"
+			],
+			"settings": {
+				"foreground": "#fa4b5a",
+				"fontStyle": ""
+			}
+		}
+	]
+}

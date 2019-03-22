@@ -1,0 +1,11 @@
+{
+	"fileTypes": [],
+	"injectionSelector": "L:source.sql",
+	"patterns": [
+		{
+			"match": ":\\w+",
+			"name": "sql.named-parameter"
+		}
+	],
+	"scopeName": "sql.injection"
+}

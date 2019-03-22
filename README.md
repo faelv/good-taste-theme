@@ -1,9 +1,6 @@
 # Good Taste Theme
 
-I don't like dark themes, can't stare at then for too long, so while searching for a good light theme the only
-one I found was the [Netbeans Light Theme by Ondrej Brejla](https://github.com/obrejla/vscode-netbeans-light-theme) which
-misses support for PHP, so I took it and used it as a base for this one with a few UI tweaks and support for PHP, SQL
-and others.
+If you are like me and don't like dark themes, this light theme is for you. Sober and carefully chosen colors.
 
 Supported languages:
 - PHP
@@ -17,6 +14,8 @@ Supported languages:
 - CSS
 - Sass / SCSS
 - Go
+
+This theme was inspired by [Netbeans Light Theme by Ondrej Brejla](https://github.com/obrejla/vscode-netbeans-light-theme)
 
 ![Window Sample](./images/sample-window.png)
 
