@@ -1,5 +1,8 @@
 # Change Log
 
+## [2.0.1]
+- Fixes for JS and TS (class properties)
+
 ## [2.0.0]
 - Completely refactored
 - VSCode's minimum required version is now 1.9
