@@ -104,6 +104,7 @@
 			"scope": [
 				"constant.language.php",
 				"string.regexp.js constant.character.numeric.regexp",
+				"meta.decorator",
 				"source.js constant.language",
 				"source.css string"
 			],
@@ -218,7 +219,8 @@
 				"meta.block.js meta.var.expr.js storage.type.js",
 				"keyword.operator.expression.in.js",
 				"support.type.builtin.ts",
-				"keyword.other.special-method.dockerfile"
+				"keyword.other.special-method.dockerfile",
+				"keyword.other.debugger"
 			],
 			"settings": {
 				"foreground": "#0000E6",
@@ -432,7 +434,6 @@
 				"punctuation.definition.string.begin.js",
 				"keyword.operator.nowdoc.php",
 				"keyword.operator.heredoc.php",
-				"string.quoted.double.php variable.other.php",
 				"string.regexp.js",
 				"string.regexp.js constant.other.character-class.set.regexp",
 				"entity.other.attribute-name.pseudo-class.css",
@@ -459,7 +460,8 @@
 		{
 			"name": "OrangeBold",
 			"scope": [
-				"string.unquoted.heredoc.php variable.other.php"
+				"string.unquoted.heredoc.php variable.other.php",
+				"string.quoted.double.php variable.other.php"
 			],
 			"settings": {
 				"foreground": "#ce7b00",
@@ -521,7 +523,11 @@
 			"name": "DarkRedItalic",
 			"scope": [
 				"punctuation.section.embedded.end.php",
-				"punctuation.section.embedded.begin.php"
+				"punctuation.section.embedded.begin.php",
+				"meta.decorator punctuation.decorator",
+				"meta.decorator variable",
+				"meta.decorator meta.function-call.js entity.name.function.js",
+				"meta.decorator meta.function-call.ts entity.name.function.ts"
 			],
 			"settings": {
 				"fontStyle": "italic",

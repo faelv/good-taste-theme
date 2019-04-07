@@ -1,5 +1,10 @@
 # Change Log
 
+## [2.0.2]
+- Added syntax highlighting for JS and TS decorators
+- PHP regression fix (variables within strings)
+- Fixes for JS and TS (debugger keyword)
+
 ## [2.0.1]
 - Fixes for JS and TS (class properties)
 
