@@ -1,5 +1,8 @@
 # Change Log
 
+## [2.0.3]
+- Fixes for TS
+
 ## [2.0.2]
 - Added syntax highlighting for JS and TS decorators
 - PHP regression fix (variables within strings)

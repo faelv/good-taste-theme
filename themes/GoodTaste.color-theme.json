@@ -106,6 +106,7 @@
 				"string.regexp.js constant.character.numeric.regexp",
 				"meta.decorator",
 				"source.js constant.language",
+				"source.ts constant.language",
 				"source.css string"
 			],
 			"settings": {
@@ -144,7 +145,9 @@
 				"variable.other.property.js",
 				"variable.other.object.property.js",
 				"variable.other.property.ts",
+				"variable.other.object.property.ts",
 				"meta.objectliteral.js meta.block punctuation.definition.block.js",
+				"constant.language.import-export-all",
 				"support.function.go",
 				"constant.other.color.rgb-value.hex.css"
 			],
@@ -158,11 +161,12 @@
 			"scope": [
 				"entity.name.type.class",
 				"entity.name.type.interface",
+				"entity.name.type.alias",
 				"entity.name.function",
 				"meta.definition.method.ts entity.name.function.ts",
 				"keyword.control.at-rule.keyframes.css",
 				"meta.method.declaration.js storage.type.js",
-				"meta.method.declaration.ts storage.type",
+				// "meta.method.declaration.ts storage.type",
 				"keyword.control.at-rule.media.css",
 				"variable.language.this.php",
 				"storage.modifier.reference.php"
@@ -367,7 +371,7 @@
 			"scope": [
 				"string.quoted.other.backtick.sql",
 				"constant.other.placeholder.go",
-				"meta.template.expression.js"
+				"meta.template.expression"
 			],
 			"settings": {
 				"foreground": "#7d5a27",
@@ -384,6 +388,7 @@
 				"string.regexp.js keyword.operator.or.regexp",
 				"string.regexp.js keyword.operator.negation.regexp",
 				"source.js support.constant",
+				"source.ts support.constant",
 				"variable.language.super.js",
 				"variable.language.super.ts",
 				"keyword.operator.expression.import.js",
