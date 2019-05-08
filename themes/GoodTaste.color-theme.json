@@ -107,6 +107,7 @@
 				"meta.decorator",
 				"source.js constant.language",
 				"source.ts constant.language",
+				"source.tsx constant.language",
 				"source.css string"
 			],
 			"settings": {
@@ -128,8 +129,10 @@
 				"keyword.operator",
 				"variable",
 				"meta.function-call.ts entity.name.function.ts",
+				"meta.function-call.tsx entity.name.function.tsx",
 				"meta.function-call.js entity.name.function.js",
 				"meta.class.ts meta.definition.property.ts variable.object.property.ts",
+				"meta.class.tsx meta.definition.property.tsx variable.object.property.tsx",
 				"meta.class.js meta.definition.property.js variable.object.property.js",
 				"support.variable.property.js",
 				"storage.modifier.import",
@@ -145,7 +148,9 @@
 				"variable.other.property.js",
 				"variable.other.object.property.js",
 				"variable.other.property.ts",
+				"variable.other.property.tsx",
 				"variable.other.object.property.ts",
+				"variable.other.object.property.tsx",
 				"meta.objectliteral.js meta.block punctuation.definition.block.js",
 				"constant.language.import-export-all",
 				"support.function.go",
@@ -164,9 +169,11 @@
 				"entity.name.type.alias",
 				"entity.name.function",
 				"meta.definition.method.ts entity.name.function.ts",
+				"meta.definition.method.tsx entity.name.function.tsx",
 				"keyword.control.at-rule.keyframes.css",
 				"meta.method.declaration.js storage.type.js",
 				// "meta.method.declaration.ts storage.type",
+				// "meta.method.declaration.tsx storage.type",
 				"keyword.control.at-rule.media.css",
 				"variable.language.this.php",
 				"storage.modifier.reference.php"
@@ -201,6 +208,7 @@
 				"variable.language.java",
 				"variable.language.this",
 				"support.type.primitive.ts",
+				"support.type.primitive.tsx",
 				"keyword.other.import.static",
 				"keyword.operator.expression.delete.js",
 				"keyword.operator.expression.typeof.js",
@@ -223,6 +231,7 @@
 				"meta.block.js meta.var.expr.js storage.type.js",
 				"keyword.operator.expression.in.js",
 				"support.type.builtin.ts",
+				"support.type.builtin.tsx",
 				"keyword.other.special-method.dockerfile",
 				"keyword.other.debugger"
 			],
@@ -239,8 +248,11 @@
 				"source.sql keyword.other",
 				"keyword.control.go",
 				"punctuation.definition.tag.begin.js",
+				"punctuation.definition.tag.begin.tsx",
 				"punctuation.definition.tag.end.js",
+				"punctuation.definition.tag.end.tsx",
 				"entity.name.tag.js",
+				"entity.name.tag.tsx",
 				"support.type.vendored.property-name.css",
 				"meta.tag.sgml.doctype.xml",
 				"keyword.other.doctype.xml",
@@ -253,13 +265,14 @@
 			}
 		},
 		{
-			"name": "LightBlueBold Italic",
+			"name": "LightBlueBold",
 			"scope": [
-				"support.class.component.js"
+				"support.class.component.js",
+				"support.class.component.tsx"
 			],
 			"settings": {
 				"foreground": "#007fbf",
-				"fontStyle": "bold italic"
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -389,12 +402,15 @@
 				"string.regexp.js keyword.operator.negation.regexp",
 				"source.js support.constant",
 				"source.ts support.constant",
+				"source.tsx support.constant",
 				"variable.language.super.js",
 				"variable.language.super.ts",
+				"variable.language.super.tsx",
 				"keyword.operator.expression.import.js",
 				"support.variable.object.node.js",
 				"support.type.object.module.js",
-				"source.ts keyword.operator.expression"
+				"source.ts keyword.operator.expression",
+				"source.tsx keyword.operator.expression"
 			],
 			"settings": {
 				"foreground": "#8000ca",
@@ -490,7 +506,9 @@
 			"name": "LightOrangeNormal",
 			"scope": [
 				"punctuation.definition.typeparameters.begin.ts",
+				"punctuation.definition.typeparameters.begin.tsx",
 				"punctuation.definition.typeparameters.end.ts",
+				"punctuation.definition.typeparameters.end.tsx",
 				"entity.other.attribute-name.css",
 				"variable.parameter.keyframe-list.css",
 				"meta.at-rule.media.header.css support.constant.media.css",
@@ -514,7 +532,9 @@
 				"string.regexp.js keyword.other.js",
 				"storage.type.function.arrow",
 				"source.ts keyword.operator.optional",
+				"source.tsx keyword.operator.optional",
 				"source.ts keyword.operator.type.ts",
+				"source.tsx keyword.operator.type.tsx",
 				"entity.name.tag.css",
 				"entity.name.tag.wildcard.css",
 				"text.pug storage"
@@ -532,7 +552,8 @@
 				"meta.decorator punctuation.decorator",
 				"meta.decorator variable",
 				"meta.decorator meta.function-call.js entity.name.function.js",
-				"meta.decorator meta.function-call.ts entity.name.function.ts"
+				"meta.decorator meta.function-call.ts entity.name.function.ts",
+				"meta.decorator meta.function-call.tsx entity.name.function.tsx"
 			],
 			"settings": {
 				"fontStyle": "italic",

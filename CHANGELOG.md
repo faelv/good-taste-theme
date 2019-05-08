@@ -1,5 +1,8 @@
 # Change Log
 
+## [2.0.4]
+- Fixed missing syntax highlight fot TSX
+
 ## [2.0.3]
 - Fixes for TS
 
