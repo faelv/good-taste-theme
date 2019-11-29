@@ -1,5 +1,9 @@
 # Change Log
 
+
+## [2.0.5]
+- Tweaks to the Activity Bar and Indent Guides
+
 ## [2.0.4]
 - Fixed missing syntax highlight fot TSX
 

@@ -13,12 +13,13 @@
 		"editor.wordHighlightBackground": "#eceba3cc",
 		"editorCursor.foreground": "#000000",
 		"editorWhitespace.foreground": "#D3D3D3",
-		"editorIndentGuide.background": "#D3D3D3",
+		"editorIndentGuide.background": "#dfdfdf",
 		"editorIndentGuide.activeBackground": "#c2c2bf",
 		"editorLineNumber.activeForeground": "#80807e",
 		"editorLineNumber.foreground": "#c2c2bf",
-		"editorSuggestWidget.selectedBackground": "#95ff6b6b",
+		"editorSuggestWidget.selectedBackground": "#b0c5e3",
 		"statusBar.background": "#2c2c2c",
+		"statusBar.foreground": "#f7f7f7",
 		"statusBar.noFolderBackground": "#2c2c2c",
 		"statusBar.debuggingBackground": "#c83232",
 		"tab.border": "#e2e2e2",
@@ -28,7 +29,9 @@
 		"tab.unfocusedActiveForeground": "#666666",
 		"tab.unfocusedInactiveForeground": "#b0b0b0",
 		"list.hoverBackground": "#d2d2d2",
-		"peekViewResult.matchHighlightBackground": "#ffb442cc"
+		"peekViewResult.matchHighlightBackground": "#ffb442cc",
+		"activityBar.activeBorder": "#2c2c2c",
+		"activityBar.foreground": "#f7f7f7"
 	},
 	"tokenColors": [
 		{
