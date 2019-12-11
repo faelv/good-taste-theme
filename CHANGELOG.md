@@ -1,5 +1,9 @@
 # Change Log
 
+## [2.1.0]
+- New icon
+- Updated README
+- Tweaks to the status bar
 
 ## [2.0.5]
 - Tweaks to the Activity Bar and Indent Guides

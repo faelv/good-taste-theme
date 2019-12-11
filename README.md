@@ -1,6 +1,8 @@
 # Good Taste Theme
 
 If you are like me and don't like dark themes, this light theme is for you. Sober and carefully chosen colors.
+But if you really want a dark theme with the same syntax highlighting, there's a dark version called
+[Dark Taste Theme](https://marketplace.visualstudio.com/items?itemName=faelv.dark-taste-theme).
 
 Supported languages:
 - PHP
@@ -14,8 +16,6 @@ Supported languages:
 - CSS
 - Sass / SCSS
 - Go
-
-This theme was inspired by [Netbeans Light Theme by Ondrej Brejla](https://github.com/obrejla/vscode-netbeans-light-theme)
 
 ![Window Sample](./images/sample-window.png)
 
@@ -47,5 +47,7 @@ Font is [**Fira Mono**](https://mozilla.github.io/Fira/)
 ## JSON
 
 ![JSON Sample](./images/sample-json.png)
+
+This theme was inspired by [Netbeans Light Theme by Ondrej Brejla](https://github.com/obrejla/vscode-netbeans-light-theme)
 
 **I hope you like it**
