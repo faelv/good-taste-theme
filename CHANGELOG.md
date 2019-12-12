@@ -1,5 +1,8 @@
 # Change Log
 
+## [2.1.1]
+- CSS units and values now have the same color
+
 ## [2.1.0]
 - New icon
 - Updated README

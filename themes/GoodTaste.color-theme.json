@@ -356,7 +356,6 @@
 		{
 			"name": "DarkGrayItalic",
 			"scope": [
-				"constant.numeric.css keyword.other",
 				"keyword.other.phpdoc.php",
 				"meta.other.type.phpdoc.php",
 				"storage.type.class.jsdoc",
@@ -574,6 +573,16 @@
 			"settings": {
 				"foreground": "#fa4b5a",
 				"fontStyle": ""
+			}
+		},
+		{
+			"name": "LightRedItalic",
+			"scope": [
+				"constant.numeric.css keyword.other"
+			],
+			"settings": {
+				"foreground": "#fa4b5a",
+				"fontStyle": "italic"
 			}
 		}
 	]
