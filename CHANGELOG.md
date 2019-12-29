@@ -1,6 +1,10 @@
 # Change Log
 
 ## [2.1.1]
+- Proper color for functions assigned to object literals (JS)
+- Updated README
+
+## [2.1.1]
 - CSS units and values now have the same color
 
 ## [2.1.0]
