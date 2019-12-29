@@ -1,6 +1,6 @@
 # Change Log
 
-## [2.1.1]
+## [2.1.2]
 - Proper color for functions assigned to object literals (JS)
 - Updated README
 
