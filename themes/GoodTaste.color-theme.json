@@ -11,7 +11,7 @@
 		"editor.selectionHighlightBackground": "#95ff6b6b",
 		"editor.selectionBackground": "#878b9180",
 		"editor.wordHighlightBackground": "#eceba3cc",
-		"editorCursor.foreground": "#000000",
+		"editorCursor.foreground": "#0f0f0e",
 		"editorWhitespace.foreground": "#D3D3D3",
 		"editorIndentGuide.background": "#dfdfdf",
 		"editorIndentGuide.activeBackground": "#c2c2bf",
@@ -97,7 +97,8 @@
 				"entity.name.function.go",
 				"entity.name.type.go",
 				"variable.scss",
-				"sql.named-parameter"
+				"sql.named-parameter",
+				"support.function.magic.python"
 			],
 			"settings": {
 				"fontStyle": "bold"
@@ -107,6 +108,7 @@
 			"name": "NoneItalic",
 			"scope": [
 				"constant.language.php",
+				"constant.language.python",
 				"string.regexp.js constant.character.numeric.regexp",
 				"meta.decorator",
 				"source.js constant.language",
@@ -161,7 +163,7 @@
 				"constant.other.color.rgb-value.hex.css"
 			],
 			"settings": {
-				"foreground": "#000000",
+				"foreground": "#0f0f0e",
 				"fontStyle": ""
 			}
 		},
@@ -184,7 +186,7 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#000000"
+				"foreground": "#0f0f0e"
 			}
 		},
 		{
@@ -193,7 +195,7 @@
 				"keyword.other.important.css"
 			],
 			"settings": {
-				"foreground": "#000000",
+				"foreground": "#0f0f0e",
 				"fontStyle": "italic"
 			}
 		},
@@ -261,7 +263,8 @@
 				"meta.tag.sgml.doctype.xml",
 				"keyword.other.doctype.xml",
 				"meta.tag.sgml.doctype.html",
-				"variable.language.documentroot.xml"
+				"variable.language.documentroot.xml",
+				"keyword.operator.logical.python"
 			],
 			"settings": {
 				"foreground": "#007fbf",
@@ -305,7 +308,8 @@
 				"support.variable.property.dom.js",
 				"variable.other.constant.property.js",
 				"variable.other.constant.object.property.js",
-				"string.quoted.single.sql"
+				"string.quoted.single.sql",
+				"constant.other.caps.python"
 			],
 			"settings": {
 				"foreground": "#009900",
@@ -337,7 +341,8 @@
 				"storage.type.rune.go",
 				"storage.type.string.go",
 				"storage.type.uintptr.go",
-				"entity.other.attribute-name.js"
+				"entity.other.attribute-name.js",
+				"variable.parameter.function-call.python"
 			],
 			"settings": {
 				"fontStyle": "",
@@ -360,6 +365,7 @@
 				"keyword.other.phpdoc.php",
 				"meta.other.type.phpdoc.php",
 				"storage.type.class.jsdoc",
+				"keyword.codetag.notation.python"
 			],
 			"settings": {
 				"foreground": "#5a5a5a",
@@ -376,7 +382,8 @@
 				"meta.parameter.object-binding-pattern.js punctuation",
 				"punctuation.section.embedded.begin.js",
 				"punctuation.section.embedded.end.js",
-				"meta.other.type.phpdoc.php keyword.other.type.php"
+				"meta.other.type.phpdoc.php keyword.other.type.php",
+				"source.python string.quoted.docstring"
 			],
 			"settings": {
 				"foreground": "#5a5a5a",
@@ -388,7 +395,9 @@
 			"scope": [
 				"string.quoted.other.backtick.sql",
 				"constant.other.placeholder.go",
-				"meta.template.expression"
+				"meta.template.expression",
+				"source.python variable.language.special",
+				"source.python variable.parameter.function.language.special"
 			],
 			"settings": {
 				"foreground": "#7d5a27",
@@ -414,7 +423,9 @@
 				"support.variable.object.node.js",
 				"support.type.object.module.js",
 				"source.ts keyword.operator.expression",
-				"source.tsx keyword.operator.expression"
+				"source.tsx keyword.operator.expression",
+				"support.variable.magic.python",
+				"support.type.python"
 			],
 			"settings": {
 				"foreground": "#8000ca",
@@ -424,7 +435,6 @@
 		{
 			"name": "GrayBold",
 			"scope": [
-
 				"keyword.other.documentation"
 			],
 			"settings": {
@@ -518,7 +528,8 @@
 				"meta.at-rule.media.header.css support.constant.media.css",
 				"meta.at-rule.media.header.css support.type.property-name.media.css",
 				"text.pug variable.control.import.include.pug",
-				"meta.tag.metadata.doctype.html string"
+				"meta.tag.metadata.doctype.html string",
+				"constant.character.format.placeholder.other.python"
 			],
 			"settings": {
 				"foreground": "#ceaf00",
@@ -557,7 +568,8 @@
 				"meta.decorator variable",
 				"meta.decorator meta.function-call.js entity.name.function.js",
 				"meta.decorator meta.function-call.ts entity.name.function.ts",
-				"meta.decorator meta.function-call.tsx entity.name.function.tsx"
+				"meta.decorator meta.function-call.tsx entity.name.function.tsx",
+				"entity.name.function.decorator.python"
 			],
 			"settings": {
 				"fontStyle": "italic",
