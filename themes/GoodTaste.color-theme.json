@@ -396,8 +396,7 @@
 				"string.quoted.other.backtick.sql",
 				"constant.other.placeholder.go",
 				"meta.template.expression",
-				"source.python variable.language.special",
-				"source.python variable.parameter.function.language.special"
+				"constant.character.format.placeholder.other.python"
 			],
 			"settings": {
 				"foreground": "#7d5a27",
@@ -528,8 +527,7 @@
 				"meta.at-rule.media.header.css support.constant.media.css",
 				"meta.at-rule.media.header.css support.type.property-name.media.css",
 				"text.pug variable.control.import.include.pug",
-				"meta.tag.metadata.doctype.html string",
-				"constant.character.format.placeholder.other.python"
+				"meta.tag.metadata.doctype.html string"
 			],
 			"settings": {
 				"foreground": "#ceaf00",
@@ -596,6 +594,17 @@
 			"settings": {
 				"foreground": "#fa4b5a",
 				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "AlternativeForeground",
+			"scope": [
+				"source.python variable.language.special",
+				"source.python variable.parameter.function.language.special"
+			],
+			"settings": {
+				"foreground": "#4b4913",
+				"fontStyle": ""
 			}
 		}
 	]
