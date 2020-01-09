@@ -2,7 +2,7 @@
     "name": "good-taste-theme",
     "displayName": "Good Taste Theme",
     "description": "A light theme for those with a good taste",
-    "version": "2.1.2",
+    "version": "2.2.0",
     "publisher": "faelv",
     "icon": "icon.png",
     "galleryBanner": {
@@ -24,7 +24,7 @@
         "Themes"
     ],
     "keywords": [
-        "light", "theme", "php", "javascript", "go", "html", "react"
+        "light", "theme", "php", "javascript", "go", "html", "react", "python"
     ],
     "contributes": {
         "themes": [
