@@ -177,9 +177,6 @@
 				"meta.definition.method.ts entity.name.function.ts",
 				"meta.definition.method.tsx entity.name.function.tsx",
 				"keyword.control.at-rule.keyframes.css",
-				"meta.method.declaration.js storage.type.js",
-				// "meta.method.declaration.ts storage.type",
-				// "meta.method.declaration.tsx storage.type",
 				"keyword.control.at-rule.media.css",
 				"variable.language.this.php",
 				"storage.modifier.reference.php"
@@ -206,7 +203,9 @@
 				"storage",
 				"keyword.control",
 				"entity.name.tag",
-				"storage.type.js",
+				"meta.var.expr.js storage.type.js",
+				"meta.var.expr.ts storage.type.ts",
+				"meta.var.expr.tsx storage.type.tsx",
 				"constant.language",
 				"keyword.operator.new",
 				"keyword.other.import",
@@ -306,24 +305,12 @@
 				"variable.other.object.property",
 				"support.type.property-name.json",
 				"support.variable.property.dom.js",
-				"variable.other.constant.property.js",
-				"variable.other.constant.object.property.js",
 				"string.quoted.single.sql",
-				"constant.other.caps.python"
+				"variable.parameter.function-call.python"
 			],
 			"settings": {
 				"foreground": "#009900",
 				"fontStyle": ""
-			}
-		},
-		{
-			"name": "GreenItalic",
-			"scope": [
-				"constant.other"
-			],
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#009900"
 			}
 		},
 		{
@@ -342,7 +329,14 @@
 				"storage.type.string.go",
 				"storage.type.uintptr.go",
 				"entity.other.attribute-name.js",
-				"variable.parameter.function-call.python"
+				"variable.other.constant.property.js",
+				"variable.other.constant.object.property.js",
+				"variable.other.constant.property.ts",
+				"variable.other.constant.object.property.ts",
+				"variable.other.constant.property.tsx",
+				"variable.other.constant.object.property.tsx",
+				"constant.other",
+				"constant.other.caps.python"
 			],
 			"settings": {
 				"fontStyle": "",
@@ -412,9 +406,9 @@
 				"string.regexp.js keyword.operator.quantifier.regexp",
 				"string.regexp.js keyword.operator.or.regexp",
 				"string.regexp.js keyword.operator.negation.regexp",
-				"source.js support.constant",
-				"source.ts support.constant",
-				"source.tsx support.constant",
+				"source.js support",
+				"source.ts support",
+				"source.tsx support",
 				"variable.language.super.js",
 				"variable.language.super.ts",
 				"variable.language.super.tsx",
@@ -429,6 +423,18 @@
 			"settings": {
 				"foreground": "#8000ca",
 				"fontStyle": ""
+			}
+		},
+		{
+			"name": "PurpleBold",
+			"scope": [
+				"meta.method.declaration.js storage.type",
+				"meta.method.declaration.ts storage.type",
+				"meta.method.declaration.tsx storage.type",
+			],
+			"settings": {
+				"foreground": "#8000ca",
+				"fontStyle": "bold"
 			}
 		},
 		{
