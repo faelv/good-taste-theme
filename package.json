@@ -64,6 +64,17 @@
                 "tokenTypes": {
                     "sql.named-parameter": "other"
                 }
+            },
+            {
+                "scopeName": "php.arrowfunction.injection",
+                "path": "./syntaxes/PHPArrowFunction.tmLanguage.json",
+                "injectTo": [
+                    "source.php",
+                    "text.html.php"
+                ],
+                "tokenTypes": {
+                    "storage.type.arrow-function.php": "other"
+                }
             }
         ]
     }

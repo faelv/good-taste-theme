@@ -1,0 +1,11 @@
+{
+	"fileTypes": [],
+	"injectionSelector": "L:meta.function-call.php",
+	"patterns": [
+		{
+			"match": "fn$",
+			"name": "storage.type.arrow-function.php"
+		}
+	],
+	"scopeName": "php.arrowfunction.injection"
+}
