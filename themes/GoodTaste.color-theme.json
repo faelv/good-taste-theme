@@ -137,9 +137,12 @@
 				"meta.function-call.ts entity.name.function.ts",
 				"meta.function-call.tsx entity.name.function.tsx",
 				"meta.function-call.js entity.name.function.js",
-				"meta.class.ts meta.definition.property.ts variable.object.property.ts",
+				"meta meta.definition.property variable.object.property",
+				/* "meta.class.ts meta.definition.property.ts variable.object.property.ts",
 				"meta.class.tsx meta.definition.property.tsx variable.object.property.tsx",
-				"meta.class.js meta.definition.property.js variable.object.property.js",
+				"meta.interface.ts meta.definition.property.ts variable.object.property.ts",
+				"meta.interface.tsx meta.definition.property.tsx variable.object.property.tsx",
+				"meta.class.js meta.definition.property.js variable.object.property.js",*/
 				"support.variable.property.js",
 				"storage.modifier.import",
 				"storage.modifier.package",
@@ -524,10 +527,8 @@
 		{
 			"name": "LightOrangeNormal",
 			"scope": [
-				"punctuation.definition.typeparameters.begin.ts",
-				"punctuation.definition.typeparameters.begin.tsx",
-				"punctuation.definition.typeparameters.end.ts",
-				"punctuation.definition.typeparameters.end.tsx",
+				"punctuation.definition.typeparameters.begin",
+				"punctuation.definition.typeparameters.end",
 				"entity.other.attribute-name.css",
 				"variable.parameter.keyframe-list.css",
 				"meta.at-rule.media.header.css support.constant.media.css",
