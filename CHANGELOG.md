@@ -1,5 +1,11 @@
 # Change Log
 
+## [2.2.2]
+- Fix for JSDoc
+- Fixes for JS(X) and TS(X) in and of operators
+- Fixes for TS interfaces
+- Added syntax highlight to PHP Arrow Functions
+
 ## [2.2.1]
 - Fixes for constants in JS(X), TS(X) and Python
 
