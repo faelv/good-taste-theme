@@ -440,24 +440,16 @@
 			}
 		},
 		{
-			"name": "GrayBold",
-			"scope": [
-				"keyword.other.documentation"
-			],
-			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#969696"
-			}
-		},
-		{
 			"name": "GrayNormal",
 			"scope": [
 				"comment",
+				"keyword.other.documentation",
 				"variable.other.jsdoc",
 				"comment.line.double-slash.js",
 				"comment.block.documentation.js",
 				"entity.name.type.instance.jsdoc",
 				"variable.other.link.underline.jsdoc",
+				"constant.language.access-type.jsdoc",
 				"text.pug string.comment",
 				"source.sql comments"
 			],
