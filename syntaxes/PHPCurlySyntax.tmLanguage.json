@@ -1,0 +1,11 @@
+{
+	"fileTypes": [],
+	"injectionSelector": ["L:string.quoted.double.php", "L:string.unquoted.heredoc.php"],
+	"patterns": [
+		{
+			"match": "(?<={)\\$\\w+",
+			"name": "variable.other.curlysyntax.php"
+		}
+	],
+	"scopeName": "php.curlysyntax.injection"
+}

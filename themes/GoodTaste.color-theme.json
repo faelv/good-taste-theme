@@ -91,13 +91,13 @@
 			"name": "NoneBold",
 			"scope": [
 				"variable.other.php",
+				"variable.other.curlysyntax.php",
 				"variable.language.php",
 				"variable.other.global.php",
 				"variable.other.global.safer.php",
 				"entity.name.function.go",
 				"entity.name.type.go",
 				"variable.scss",
-				"sql.named-parameter",
 				"support.function.magic.python"
 			],
 			"settings": {
@@ -114,7 +114,8 @@
 				"source.js constant.language",
 				"source.ts constant.language",
 				"source.tsx constant.language",
-				"source.css string"
+				"source.css string",
+				"sql.named-parameter"
 			],
 			"settings": {
 				"fontStyle": "italic"
@@ -138,11 +139,6 @@
 				"meta.function-call.tsx entity.name.function.tsx",
 				"meta.function-call.js entity.name.function.js",
 				"meta meta.definition.property variable.object.property",
-				/* "meta.class.ts meta.definition.property.ts variable.object.property.ts",
-				"meta.class.tsx meta.definition.property.tsx variable.object.property.tsx",
-				"meta.interface.ts meta.definition.property.ts variable.object.property.ts",
-				"meta.interface.tsx meta.definition.property.tsx variable.object.property.tsx",
-				"meta.class.js meta.definition.property.js variable.object.property.js",*/
 				"support.variable.property.js",
 				"storage.modifier.import",
 				"storage.modifier.package",
@@ -163,7 +159,12 @@
 				"meta.objectliteral.js meta.block punctuation.definition.block.js",
 				"constant.language.import-export-all",
 				"support.function.go",
-				"constant.other.color.rgb-value.hex.css"
+				"constant.other.color.rgb-value.hex.css",
+				"string.quoted.double.php meta.method-call.php",
+				"string.quoted.double.php punctuation.section",
+				"string.unquoted.heredoc.php meta.method-call.php",
+				"source.php text.html",
+				"source.php source.sql"
 			],
 			"settings": {
 				"foreground": "#0f0f0e",
@@ -472,8 +473,7 @@
 				"string.regexp.js constant.other.character-class.set.regexp",
 				"entity.other.attribute-name.pseudo-class.css",
 				"entity.other.attribute-name.pseudo-element.css",
-				"entity.name.package.go",
-				"meta.embedded.sql source.sql keyword.operator.star"
+				"entity.name.package.go"
 			],
 			"settings": {
 				"foreground": "#ce7b00",
@@ -483,8 +483,7 @@
 		{
 			"name": "OrangeItalic",
 			"scope": [
-				"string.regexp.js constant.other.character-class.range.regexp",
-				"meta.embedded.sql sql.named-parameter"
+				"string.regexp.js constant.other.character-class.range.regexp"
 			],
 			"settings": {
 				"foreground": "#ce7b00",
@@ -494,8 +493,9 @@
 		{
 			"name": "OrangeBold",
 			"scope": [
+				"string.quoted.double.php variable.other.php",
 				"string.unquoted.heredoc.php variable.other.php",
-				"string.quoted.double.php variable.other.php"
+				"string.quoted.double.sql.php variable.other.php"
 			],
 			"settings": {
 				"foreground": "#ce7b00",

@@ -75,6 +75,17 @@
                 "tokenTypes": {
                     "storage.type.arrow-function.php": "other"
                 }
+            },
+            {
+                "scopeName": "php.curlysyntax.injection",
+                "path": "./syntaxes/PHPCurlySyntax.tmLanguage.json",
+                "injectTo": [
+                    "source.php",
+                    "text.html.php"
+                ],
+                "tokenTypes": {
+                    "variable.other.curlysyntax.php": "other"
+                }
             }
         ]
     }
