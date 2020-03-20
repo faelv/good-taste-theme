@@ -1,6 +1,7 @@
 {
 	"name": "Good Taste",
 	"type": "light",
+	"semanticHighlighting": false,
 	"colors": {
 		"foreground": "#404040",
 		"editor.findMatchBackground": "#b0c5e3cc",
