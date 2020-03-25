@@ -11,11 +11,6 @@ Better suitable for well illuminated environments.
 
 ![Window Sample](./images/sample-window.png)
 
-> **Note on Semantic Highlight:** This theme aims to provide color highlighting for specific language features instead of a
-generic support for all of them. Currently, it's not possible to achieve the same thing with semantic highlight, so it
-was disabled for this theme. If semantic highlight becomes mandatory in the future, I won't be able to maintain this
-extension anymore.
-
 I hope you like it. Feedback is welcome!
 
 Dark version: [**Dark Taste Theme**](https://marketplace.visualstudio.com/items?itemName=faelv.dark-taste-theme)

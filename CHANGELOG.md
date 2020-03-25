@@ -1,5 +1,8 @@
 # Change Log
 
+## [2.2.5]
+- Fix for constants in PHP
+
 ## [2.2.4]
 - Disabled semantic highlighting
 
