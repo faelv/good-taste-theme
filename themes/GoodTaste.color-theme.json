@@ -320,6 +320,7 @@
 		{
 			"name": "DarkGreenNormal",
 			"scope": [
+				"constant.other.php",
 				"constant.other.class.php",
 				"support.constant.std.php",
 				"support.constant.ext.php",
