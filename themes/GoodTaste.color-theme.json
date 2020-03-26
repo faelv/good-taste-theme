@@ -602,7 +602,8 @@
 				"source.python variable.language.special",
 				"source.python variable.parameter.function.language.special",
 				"source.php text.html",
-				"source.php source.sql"
+				"source.php source.sql",
+				"punctuation.accessor.optional"
 			],
 			"settings": {
 				"foreground": "#4b4913",
