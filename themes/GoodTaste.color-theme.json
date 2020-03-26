@@ -563,7 +563,6 @@
 				"punctuation.section.embedded.end.php",
 				"punctuation.section.embedded.begin.php",
 				"meta.decorator punctuation.decorator",
-				"meta.decorator variable",
 				"meta.decorator meta.function-call.js entity.name.function.js",
 				"meta.decorator meta.function-call.ts entity.name.function.ts",
 				"meta.decorator meta.function-call.tsx entity.name.function.tsx",
