@@ -82,7 +82,9 @@
 				"entity.name.function.php",
 				"entity.name.type.class.php",
 				"entity.name.type.interface.php",
-				"entity.name.type.trait.php"
+				"entity.name.type.trait.php",
+				"entity.name.function.cs",
+				"entity.name.type.class.cs"
 			],
 			"settings": {
 				"fontStyle": ""
@@ -116,7 +118,8 @@
 				"source.ts constant.language",
 				"source.tsx constant.language",
 				"source.css string",
-				"sql.named-parameter"
+				"sql.named-parameter",
+				"source.cs constant.language"
 			],
 			"settings": {
 				"fontStyle": "italic"
@@ -163,7 +166,8 @@
 				"constant.other.color.rgb-value.hex.css",
 				"string.quoted.double.php meta.method-call.php",
 				"string.quoted.double.php punctuation.section",
-				"string.unquoted.heredoc.php meta.method-call.php"
+				"string.unquoted.heredoc.php meta.method-call.php",
+				"variable.other.object.property.cs"
 			],
 			"settings": {
 				"foreground": "#0f0f0e",
@@ -242,7 +246,8 @@
 				"support.type.builtin.ts",
 				"support.type.builtin.tsx",
 				"keyword.other.special-method.dockerfile",
-				"keyword.other.debugger"
+				"keyword.other.debugger",
+				"source.cs keyword.other"
 			],
 			"settings": {
 				"foreground": "#0000E6",
@@ -341,7 +346,8 @@
 				"variable.other.constant.property.tsx",
 				"variable.other.constant.object.property.tsx",
 				"constant.other",
-				"constant.other.caps.python"
+				"constant.other.caps.python",
+				"source.cs storage.type"
 			],
 			"settings": {
 				"fontStyle": "",
@@ -382,7 +388,12 @@
 				"punctuation.section.embedded.begin.js",
 				"punctuation.section.embedded.end.js",
 				"meta.other.type.phpdoc.php keyword.other.type.php",
-				"source.python string.quoted.docstring"
+				"source.python string.quoted.docstring",
+				"meta.tag.cs entity.name.tag",
+				"meta.tag.cs entity.other.attribute-name",
+				"meta.tag.cs punctuation.definition.string.begin.cs",
+				"meta.tag.cs string",
+				"meta.tag.cs"
 			],
 			"settings": {
 				"foreground": "#5a5a5a",
@@ -395,7 +406,8 @@
 				"string.quoted.other.backtick.sql",
 				"constant.other.placeholder.go",
 				"meta.template.expression",
-				"constant.character.format.placeholder.other.python"
+				"constant.character.format.placeholder.other.python",
+				"meta.interpolation.cs"
 			],
 			"settings": {
 				"foreground": "#7d5a27",
@@ -421,7 +433,8 @@
 				"support.variable.object.node.js",
 				"support.type.object.module.js",
 				"support.variable.magic.python",
-				"support.type.python"
+				"support.type.python",
+				"keyword.type.cs"
 			],
 			"settings": {
 				"foreground": "#8000ca",
@@ -526,7 +539,8 @@
 				"text.pug variable.control.import.include.pug",
 				"meta.tag.metadata.doctype.html string",
 				"keyword.operator.nowdoc.php",
-				"keyword.operator.heredoc.php"
+				"keyword.operator.heredoc.php",
+				"punctuation.definition.string.begin.cs"
 			],
 			"settings": {
 				"foreground": "#ceaf00",
@@ -602,7 +616,8 @@
 				"source.python variable.parameter.function.language.special",
 				"source.php text.html",
 				"source.php source.sql",
-				"punctuation.accessor.optional"
+				"punctuation.accessor.optional",
+				"source.cs keyword.operator"
 			],
 			"settings": {
 				"foreground": "#4b4913",
