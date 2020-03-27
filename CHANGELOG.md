@@ -1,5 +1,12 @@
 # Change Log
 
+## [2.3.0]
+- Fix for regex strings in PHP
+- Fix for C# preprocessors
+- Better C# support
+- Fix for decorators in JS/TS
+- Added syntax highlight to the optional chaining operator in JS/TS
+
 ## [2.2.5]
 - Fix for constants in PHP
 

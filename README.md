@@ -4,7 +4,7 @@
 ![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/faelv.good-taste-theme?style=flat-square)
 ![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/faelv.good-taste-theme?style=flat-square)
 [![GitHub issues](https://img.shields.io/github/issues/faelv/good-taste-theme?style=flat-square)](https://github.com/faelv/good-taste-theme/issues)
-[![Donate PayPal](https://img.shields.io/badge/Donate-PayPal-blue?style=flat-square)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QQBNDQ42NQS3J&source=url)
+[![Donate PayPal](https://img.shields.io/badge/Donate%20%241-PayPal-blue?style=flat-square)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QQBNDQ42NQS3J&source=url)
 
 A light theme with sober and carefully chosen colors for long hours usage.
 Better suitable for well illuminated environments.
@@ -19,6 +19,7 @@ Font used: [**Fira Mono**](https://mozilla.github.io/Fira/)
 
 ## Supported languages:
 
+- **C#**
 - **CSS**
 - **Go**
 - **HTML**
