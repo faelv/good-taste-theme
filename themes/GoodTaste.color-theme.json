@@ -486,7 +486,8 @@
 				"string.regexp.js constant.other.character-class.set.regexp",
 				"entity.other.attribute-name.pseudo-class.css",
 				"entity.other.attribute-name.pseudo-element.css",
-				"entity.name.package.go"
+				"entity.name.package.go",
+				"keyword.operator.regexp.php"
 			],
 			"settings": {
 				"foreground": "#ce7b00",
