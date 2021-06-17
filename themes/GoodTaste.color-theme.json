@@ -249,7 +249,8 @@
 				"support.type.builtin.tsx",
 				"keyword.other.special-method.dockerfile",
 				"keyword.other.debugger",
-				"source.cs keyword.other"
+				"source.cs keyword.other",
+				"meta.function.php support"
 			],
 			"settings": {
 				"foreground": "#0000E6",
