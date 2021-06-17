@@ -1,5 +1,10 @@
 # Change Log
 
+## [2.3.3]
+- Adds highlight colors to html entities
+- Fixes match highlights color in lists
+- Fixes some support functions in PHP
+
 ## [2.3.2]
 - Fixes parameter typehint in PHP
 
