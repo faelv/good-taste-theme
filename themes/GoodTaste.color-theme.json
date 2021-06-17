@@ -18,7 +18,6 @@
 		"editorIndentGuide.activeBackground": "#c2c2bf",
 		"editorLineNumber.activeForeground": "#80807e",
 		"editorLineNumber.foreground": "#c2c2bf",
-		"editorSuggestWidget.selectedBackground": "#b0c5e3",
 		"statusBar.background": "#2c2c2c",
 		"statusBar.foreground": "#f7f7f7",
 		"statusBar.noFolderBackground": "#2c2c2c",
@@ -33,7 +32,9 @@
 		"peekViewResult.matchHighlightBackground": "#ffb442cc",
 		"activityBar.activeBorder": "#2c2c2c",
 		"activityBar.foreground": "#f7f7f7",
-		"statusBarItem.remoteBackground": "#353535"
+		"statusBarItem.remoteBackground": "#353535",
+		"editorSuggestWidget.focusHighlightForeground": "#ffb442",
+		"list.focusHighlightForeground":"#ffb442"
 	},
 	"tokenColors": [
 		{
