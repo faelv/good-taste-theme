@@ -1,5 +1,8 @@
 # Change Log
 
+## [2.3.4]
+- Fixes PHP clone keyword
+
 ## [2.3.3]
 - Adds highlight colors to html entities
 - Fixes match highlights color in lists
