@@ -239,6 +239,7 @@
 				"keyword.other.namespace.php",
 				"keyword.operator.type.php",
 				"keyword.other.use-as.php",
+				"keyword.other.clone.php",
 				"punctuation.definition.storage-type.begin.bracket.round.php",
 				"punctuation.definition.storage-type.end.bracket.round.php",
 				"meta.function.parameters.php punctuation.separator.inheritance.php",
