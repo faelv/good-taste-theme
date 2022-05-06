@@ -33,6 +33,16 @@ Font used: [**Fira Mono**](https://mozilla.github.io/Fira/)
 
 Other languages may work too, even without specific support.
 
+## Support
+
+### Brackets have wrong / funny colors
+
+It's a VSCode feature. If you don't like it, disable it by uncheking **Editor > Bracket Pair Colorization** in Settings or manually by adding `"editor.bracketPairColorization.enabled": false`
+
+### Something else?
+
+Open an issue [here](https://github.com/faelv/good-taste-theme/issues).
+
 ## Screenshots:
 
 ### Python
@@ -50,10 +60,6 @@ Other languages may work too, even without specific support.
 ### PHP
 
 ![PHP Sample](images/sample-php.png)
-
-## Support
-
-If something isn't working open an issue [here](https://github.com/faelv/good-taste-theme/issues).
 
 #
 

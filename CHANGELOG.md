@@ -1,5 +1,11 @@
 # Change Log
 
+## [2.4.0]
+- Fixes JSON and JS within HereDoc and NowDoc in PHP
+- Fixes typehinted parameters in PHP
+- Adds support for bracket highlight
+- Adds a subtle highlight to attributes in PHP
+
 ## [2.3.4]
 - Fixes PHP clone keyword
 
