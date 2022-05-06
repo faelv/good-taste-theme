@@ -406,7 +406,8 @@
 				"meta.tag.cs entity.other.attribute-name",
 				"meta.tag.cs punctuation.definition.string.begin.cs",
 				"meta.tag.cs string",
-				"meta.tag.cs"
+				"meta.tag.cs",
+				"meta.attribute.begin.php"
 			],
 			"settings": {
 				"foreground": "#5a5a5a",

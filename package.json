@@ -75,6 +75,14 @@
                 "tokenTypes": {
                     "variable.other.curlysyntax.php": "other"
                 }
+            },
+            {
+                "scopeName": "php.attribute.injection",
+                "path": "./syntaxes/PHPAttribute.tmLanguage.json",
+                "injectTo": [
+                    "source.php",
+                    "text.html.php"
+                ]
             }
         ]
     }

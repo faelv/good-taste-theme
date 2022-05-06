@@ -1,0 +1,15 @@
+{
+	"fileTypes": [],
+	"injectionSelector": ["L:source.php"],
+	"scopeName": "php.attribute.injection",
+	"patterns": [
+		{
+			"captures": {
+				"1": {
+					"name": "meta.attribute.begin.php"
+				}
+			},
+			"match": "(\\#)\\["
+		}
+	]
+}
