@@ -243,6 +243,7 @@
 				"punctuation.definition.storage-type.begin.bracket.round.php",
 				"punctuation.definition.storage-type.end.bracket.round.php",
 				"meta.function.parameters.php punctuation.separator.inheritance.php",
+				"meta.function.parameter.typehinted.php keyword.other",
 				"meta.function.parameter.typehinted.php support",
 				"meta.block.js meta.var.expr.js storage.type.js",
 				"keyword.operator.expression.in",
