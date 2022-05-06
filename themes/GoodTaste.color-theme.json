@@ -626,6 +626,8 @@
 				"source.python variable.parameter.function.language.special",
 				"source.php text.html",
 				"source.php source.sql",
+				"source.php source.json",
+				"source.php source.js",
 				"punctuation.accessor.optional",
 				"source.cs keyword.operator"
 			],
