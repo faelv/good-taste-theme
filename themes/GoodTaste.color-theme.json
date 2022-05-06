@@ -34,7 +34,14 @@
 		"activityBar.foreground": "#f7f7f7",
 		"statusBarItem.remoteBackground": "#353535",
 		"editorSuggestWidget.focusHighlightForeground": "#ffb442",
-		"list.focusHighlightForeground":"#ffb442"
+		"list.focusHighlightForeground":"#ffb442",
+		"editorBracketHighlight.unexpectedBracket.foreground": "#ff2b3d",
+		"editorBracketHighlight.foreground1": "#0f0f0e",
+		"editorBracketHighlight.foreground2": "#9a9c20",
+		"editorBracketHighlight.foreground3": "#66ac2d",
+		"editorBracketHighlight.foreground4": "#16af81",
+		"editorBracketHighlight.foreground5": "#547cb3",
+		"editorBracketHighlight.foreground6": "#af1681",
 	},
 	"tokenColors": [
 		{
