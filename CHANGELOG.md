@@ -1,5 +1,9 @@
 # Change Log
 
+## [2.4.1]
+- Fixes JS object literals
+- Fixes PHP nullable types
+
 ## [2.4.0]
 - Fixes JSON and JS within HereDoc and NowDoc in PHP
 - Fixes typehinted parameters in PHP
