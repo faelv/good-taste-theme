@@ -260,7 +260,8 @@
 				"keyword.other.special-method.dockerfile",
 				"keyword.other.debugger",
 				"source.cs keyword.other",
-				"meta.function.php support"
+				"meta.function.php support",
+				"meta.class.body.php keyword.other.type.php"
 			],
 			"settings": {
 				"foreground": "#0000E6",
@@ -395,7 +396,6 @@
 			"scope": [
 				"string.regexp.js punctuation.definition.group.regexp",
 				"string.regexp.js punctuation.definition.character-class.regexp",
-				"meta.objectliteral.js punctuation.definition.block.js",
 				"meta.object-binding-pattern-variable.js punctuation",
 				"meta.parameter.object-binding-pattern.js punctuation",
 				"punctuation.section.embedded.begin.js",
@@ -407,7 +407,8 @@
 				"meta.tag.cs punctuation.definition.string.begin.cs",
 				"meta.tag.cs string",
 				"meta.tag.cs",
-				"meta.attribute.begin.php"
+				"meta.attribute.begin.php",
+				"meta.import.js punctuation.definition.block.js"
 			],
 			"settings": {
 				"foreground": "#5a5a5a",
@@ -555,7 +556,8 @@
 				"meta.tag.metadata.doctype.html string",
 				"keyword.operator.nowdoc.php",
 				"keyword.operator.heredoc.php",
-				"punctuation.definition.string.begin.cs"
+				"punctuation.definition.string.begin.cs",
+				"keyword.operator.nullable-type.php"
 			],
 			"settings": {
 				"foreground": "#ceaf00",
